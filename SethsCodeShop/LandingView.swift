@@ -12,9 +12,26 @@ struct LandingView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Welcome to the App")
+            Text("Welcome to")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+                .padding(.top, 50)
+                .frame(maxWidth: .infinity, alignment: .center)
+            
+            Text("Seths Code Shop!")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.bottom, 50)
+                .frame(maxWidth: .infinity, alignment: .center)
+            
+            Image(uiImage:  #imageLiteral(resourceName:"Headshot.jpeg"))
+                .resizable()
+                .scaledToFit()
+                .frame(width: 200, height: 200)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.gray, lineWidth: 2))
+            
+            Spacer()
             
             Button(action: {
                 auth0Manager.login()
@@ -23,9 +40,11 @@ struct LandingView: View {
                     .font(.title2)
                     .padding()
                     .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 50)
                     .background(Color.blue)
                     .cornerRadius(10)
             }
+            .padding(.horizontal, 40)
             
             Button(action: {
                 auth0Manager.continueAsGuest()
@@ -34,9 +53,13 @@ struct LandingView: View {
                     .font(.title2)
                     .padding()
                     .foregroundColor(.white)
+                    .frame(maxWidth: .infinity, minHeight: 50)
                     .background(Color.gray)
                     .cornerRadius(10)
             }
+            .padding(.horizontal, 40)
+            
+            Spacer()
         }
     }
 }

@@ -12,9 +12,13 @@ struct NavbarView: View {
                 LandingView()
             } else {
                 if selection == 0 {
-                    ResumeView()
-                } else {
+                    SummaryView()
+                }
+                else if (selection == 1) {
                     AboutView()
+                }
+                else {
+                    ExperienceView()
                 }
             }
             
@@ -33,18 +37,17 @@ struct BottomNavigationView: View {
     
     var body: some View {
         HStack {
-            Spacer()
-            
             Button(action: {
                 selection = 0
             }) {
                 VStack {
                     Image(systemName: "house.fill")
                         .font(.system(size: 24))
-                    Text("Home")
+                        .foregroundColor(selection == 0 ? Color.blue : Color.gray)
+                    Text("Summary")
                         .font(.caption)
+                        .foregroundColor(selection == 0 ? Color.blue : Color.gray)
                 }
-                .foregroundColor(selection == 0 ? Color.blue : Color.gray)
             }
             
             Spacer()
@@ -55,10 +58,26 @@ struct BottomNavigationView: View {
                 VStack {
                     Image(systemName: "info.circle.fill")
                         .font(.system(size: 24))
+                        .foregroundColor(selection == 1 ? Color.blue : Color.gray)
                     Text("About")
                         .font(.caption)
+                        .foregroundColor(selection == 1 ? Color.blue : Color.gray)
                 }
-                .foregroundColor(selection == 1 ? Color.blue : Color.gray)
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                selection = 2
+            }) {
+                VStack {
+                    Image(systemName: "info.circle.fill")
+                        .font(.system(size: 24))
+                        .foregroundColor(selection == 2 ? Color.blue : Color.gray)
+                    Text("Experience")
+                        .font(.caption)
+                        .foregroundColor(selection == 2 ? Color.blue : Color.gray)
+                }
             }
             
             Spacer()
@@ -67,29 +86,36 @@ struct BottomNavigationView: View {
                 Button(action: {
                     auth0Manager.logout()
                 }) {
-                    Image(systemName: "info.circle.fill")
-                        .font(.system(size: 24))
-                    Text("Logout")
-                        .font(.caption)
+                    VStack {
+                        Image(systemName: "person.crop.circle.badge.xmark")
+                            .font(.system(size: 24))
+                            .foregroundColor(Color.red)
+                        Text("Logout")
+                            .font(.caption)
+                            .foregroundColor(Color.red)
+                    }
                 }
             } else {
                 Button(action: {
                     auth0Manager.login()
                 }) {
-                    Image(systemName: "info.circle.fill")
-                        .font(.system(size: 24))
-                    Text("Login")
-                        .font(.caption)
+                    VStack {
+                        Image(systemName: "person.crop.circle")
+                            .font(.system(size: 24))
+                            .foregroundColor(Color.blue)
+                        Text("Login")
+                            .font(.caption)
+                            .foregroundColor(Color.blue)
+                    }
                 }
             }
-            
-            Spacer()
         }
         .padding()
         .background(Color(.systemGray6))
         .cornerRadius(15)
     }
 }
+
 
 struct NavbarView_Previews: PreviewProvider {
     static var previews: some View {

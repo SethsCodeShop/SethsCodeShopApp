@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ResumeView: View {
+struct SummaryView: View {
     fileprivate func GetSummary() -> some View {
         return VStack(alignment: .leading, spacing: 10) {
             SectionTitle(title: "SUMMARY")
@@ -43,7 +43,7 @@ struct ResumeView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 20) {
-                Image("Headshot")
+                Image(uiImage:  #imageLiteral(resourceName:"Headshot.jpeg"))
                     .resizable()
                     .scaledToFit()
                     .frame(width: 100, height: 100)
@@ -97,8 +97,8 @@ struct SectionTitle: View {
     }
 }
 
-struct ResumeView_Previews: PreviewProvider {
+struct SummaryView_Previews: PreviewProvider {
     static var previews: some View {
-        ResumeView()
+        SummaryView()
     }
 }
