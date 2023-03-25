@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct SethsCodeShopApp: App {
+    @StateObject private var auth0Manager = Auth0Manager()
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavbarView()
+                .environmentObject(auth0Manager)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -8,21 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0B16EE8B29CF4A7300F15457 /* SethsCodeShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EE8A29CF4A7300F15457 /* SethsCodeShopApp.swift */; };
-		0B16EE8D29CF4A7300F15457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EE8C29CF4A7300F15457 /* ContentView.swift */; };
 		0B16EE8F29CF4A7600F15457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16EE8E29CF4A7600F15457 /* Assets.xcassets */; };
 		0B16EE9229CF4A7600F15457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B16EE9129CF4A7600F15457 /* Preview Assets.xcassets */; };
 		0B16EE9429CF4A7600F15457 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EE9329CF4A7600F15457 /* Persistence.swift */; };
 		0B16EE9729CF4A7600F15457 /* SethsCodeShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EE9529CF4A7600F15457 /* SethsCodeShop.xcdatamodeld */; };
+		0B16EEA229CF4C7200F15457 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEA129CF4C7200F15457 /* ResumeView.swift */; };
+		0B16EEA629CF521C00F15457 /* LinkedIn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0B16EEA529CF521C00F15457 /* LinkedIn.pdf */; };
+		0B16EEAA29CF54C800F15457 /* Headshot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0B16EEA929CF54C800F15457 /* Headshot.jpeg */; };
+		0B16EEAE29CF7A6100F15457 /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEAD29CF7A6100F15457 /* NavbarView.swift */; };
+		0B16EEB029CF833C00F15457 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEAF29CF833C00F15457 /* AboutView.swift */; };
+		0B16EEB329CF857100F15457 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 0B16EEB229CF857100F15457 /* Auth0 */; };
+		0B16EEB529CF859300F15457 /* Auth0Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEB429CF859300F15457 /* Auth0Manager.swift */; };
+		0B16EEB729CF863B00F15457 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEB629CF863B00F15457 /* LandingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B16EE8729CF4A7300F15457 /* SethsCodeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SethsCodeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B16EE8A29CF4A7300F15457 /* SethsCodeShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SethsCodeShopApp.swift; sourceTree = "<group>"; };
-		0B16EE8C29CF4A7300F15457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B16EE8E29CF4A7600F15457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B16EE9129CF4A7600F15457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B16EE9329CF4A7600F15457 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0B16EE9629CF4A7600F15457 /* SethsCodeShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SethsCodeShop.xcdatamodel; sourceTree = "<group>"; };
+		0B16EEA129CF4C7200F15457 /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		0B16EEA529CF521C00F15457 /* LinkedIn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LinkedIn.pdf; sourceTree = "<group>"; };
+		0B16EEA929CF54C800F15457 /* Headshot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Headshot.jpeg; path = ../../../../../../Desktop/Pics/Headshot.jpeg; sourceTree = "<group>"; };
+		0B16EEAD29CF7A6100F15457 /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		0B16EEAF29CF833C00F15457 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		0B16EEB429CF859300F15457 /* Auth0Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0Manager.swift; sourceTree = "<group>"; };
+		0B16EEB629CF863B00F15457 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		0B16EEB829CF884800F15457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B16EEB329CF857100F15457 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,12 +70,18 @@
 		0B16EE8929CF4A7300F15457 /* SethsCodeShop */ = {
 			isa = PBXGroup;
 			children = (
+				0B16EEB829CF884800F15457 /* Info.plist */,
+				0B16EEA429CF4F3900F15457 /* Images */,
 				0B16EE8A29CF4A7300F15457 /* SethsCodeShopApp.swift */,
-				0B16EE8C29CF4A7300F15457 /* ContentView.swift */,
+				0B16EEA129CF4C7200F15457 /* ResumeView.swift */,
+				0B16EEAF29CF833C00F15457 /* AboutView.swift */,
+				0B16EEAD29CF7A6100F15457 /* NavbarView.swift */,
 				0B16EE8E29CF4A7600F15457 /* Assets.xcassets */,
 				0B16EE9329CF4A7600F15457 /* Persistence.swift */,
 				0B16EE9529CF4A7600F15457 /* SethsCodeShop.xcdatamodeld */,
 				0B16EE9029CF4A7600F15457 /* Preview Content */,
+				0B16EEB429CF859300F15457 /* Auth0Manager.swift */,
+				0B16EEB629CF863B00F15457 /* LandingView.swift */,
 			);
 			path = SethsCodeShop;
 			sourceTree = "<group>";
@@ -71,6 +92,15 @@
 				0B16EE9129CF4A7600F15457 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B16EEA429CF4F3900F15457 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B16EEA929CF54C800F15457 /* Headshot.jpeg */,
+				0B16EEA529CF521C00F15457 /* LinkedIn.pdf */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +119,9 @@
 			dependencies = (
 			);
 			name = SethsCodeShop;
+			packageProductDependencies = (
+				0B16EEB229CF857100F15457 /* Auth0 */,
+			);
 			productName = SethsCodeShop;
 			productReference = 0B16EE8729CF4A7300F15457 /* SethsCodeShop.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +150,9 @@
 				Base,
 			);
 			mainGroup = 0B16EE7E29CF4A7300F15457;
+			packageReferences = (
+				0B16EEB129CF857100F15457 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = 0B16EE8829CF4A7300F15457 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B16EE9229CF4A7600F15457 /* Preview Assets.xcassets in Resources */,
+				0B16EEAA29CF54C800F15457 /* Headshot.jpeg in Resources */,
 				0B16EE8F29CF4A7600F15457 /* Assets.xcassets in Resources */,
+				0B16EEA629CF521C00F15457 /* LinkedIn.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B16EE9429CF4A7600F15457 /* Persistence.swift in Sources */,
-				0B16EE8D29CF4A7300F15457 /* ContentView.swift in Sources */,
 				0B16EE9729CF4A7600F15457 /* SethsCodeShop.xcdatamodeld in Sources */,
+				0B16EEB529CF859300F15457 /* Auth0Manager.swift in Sources */,
+				0B16EEAE29CF7A6100F15457 /* NavbarView.swift in Sources */,
+				0B16EEB729CF863B00F15457 /* LandingView.swift in Sources */,
 				0B16EE8B29CF4A7300F15457 /* SethsCodeShopApp.swift in Sources */,
+				0B16EEB029CF833C00F15457 /* AboutView.swift in Sources */,
+				0B16EEA229CF4C7200F15457 /* ResumeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SethsCodeShop/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SethsCodeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +348,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SethsCodeShop/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SethsCodeShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,6 +389,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B16EEB129CF857100F15457 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B16EEB229CF857100F15457 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B16EEB129CF857100F15457 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0B16EE9529CF4A7600F15457 /* SethsCodeShop.xcdatamodeld */ = {
