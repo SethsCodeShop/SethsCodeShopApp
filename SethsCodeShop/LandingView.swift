@@ -36,7 +36,7 @@ struct LandingView: View {
             Button(action: {
                 auth0Manager.login()
             }) {
-                Text("Log in")
+                Text("Log in / Sign up")
                     .font(.title2)
                     .padding()
                     .foregroundColor(.white)

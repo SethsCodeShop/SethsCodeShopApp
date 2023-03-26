@@ -112,7 +112,6 @@ struct BottomNavigationView: View {
         }
         .padding()
         .background(Color(.systemGray6))
-        .cornerRadius(15)
     }
 }
 

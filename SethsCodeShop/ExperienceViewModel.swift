@@ -19,16 +19,20 @@ struct Experience: Codable, Identifiable {
 
 class ExperienceViewModel: ObservableObject {
     @Published var experienceData: [Experience] = []
+    @Published var isLoading = false
     
     func fetchExperienceData() {
+        isLoading = true
         API.shared.fetchExperienceData { result in
             switch result {
             case .success(let experienceData):
                 DispatchQueue.main.async {
                     self.experienceData = experienceData
+                    self.isLoading = false
                 }
             case .failure(let error):
                 print("Error fetching experience data: \(error.localizedDescription)")
+                self.isLoading = false
             }
         }
     }

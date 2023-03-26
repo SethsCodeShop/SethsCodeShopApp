@@ -37,6 +37,26 @@ struct SummaryView: View {
             .padding(.top)
             
             SectionTitle(title: "Certifications")
+            Group {
+                Text("Google Cloud Fundamentals:")
+                    .font(.body)
+                    .fontWeight(.bold)
+                Text("Core Infrastructure")
+                    .font(.body)
+            }
+            .padding(.top)
+            
+            SectionTitle(title: "Education")
+            Group {
+                Text("B.S. in Management Information Systems")
+                    .font(.body)
+                    .fontWeight(.bold)
+                Text("Oklahoma State University")
+                    .font(.body)
+                Text("Specialization in Information Assurance")
+                    .font(.body)
+            }
+            .padding(.top)
         }
     }
     
