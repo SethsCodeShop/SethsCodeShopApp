@@ -22,6 +22,9 @@ class Auth0Manager: ObservableObject {
                 switch result {
                 case .success(let credentials):
                     print("Obtained credentials: \(credentials)")
+                    DispatchQueue.main.async {
+                        self.isAuthenticated = true
+                    }
                 case .failure(let error):
                     print("Failed with: \(error)")
                 }
@@ -35,6 +38,9 @@ class Auth0Manager: ObservableObject {
                 switch result {
                 case .success:
                     print("Logged out")
+                    DispatchQueue.main.async {
+                        self.isAuthenticated = false
+                    }
                 case .failure(let error):
                     print("Failed with: \(error)")
                 }

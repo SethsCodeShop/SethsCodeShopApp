@@ -23,6 +23,7 @@
 		0B16EEBA29CF93BC00F15457 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEB929CF93BC00F15457 /* ExperienceView.swift */; };
 		0B16EEBD29CF9A3000F15457 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEBC29CF9A3000F15457 /* ExperienceViewModel.swift */; };
 		0B16EEC029CF9A7A00F15457 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEBF29CF9A7A00F15457 /* API.swift */; };
+		0BE40B6C29D8BE6D0048D3E9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BE40B6B29D8BE6D0048D3E9 /* Auth0.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0B16EEB929CF93BC00F15457 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
 		0B16EEBC29CF9A3000F15457 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
 		0B16EEBF29CF9A7A00F15457 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0BE40B6B29D8BE6D0048D3E9 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0B16EEB429CF859300F15457 /* Auth0Manager.swift */,
 				0B16EEB629CF863B00F15457 /* LandingView.swift */,
 				0B16EEB929CF93BC00F15457 /* ExperienceView.swift */,
+				0BE40B6B29D8BE6D0048D3E9 /* Auth0.plist */,
 			);
 			path = SethsCodeShop;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE40B6C29D8BE6D0048D3E9 /* Auth0.plist in Resources */,
 				0B16EE9229CF4A7600F15457 /* Preview Assets.xcassets in Resources */,
 				0B16EEAA29CF54C800F15457 /* Headshot.jpeg in Resources */,
 				0B16EE8F29CF4A7600F15457 /* Assets.xcassets in Resources */,
@@ -346,9 +350,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "SethsCodeShop/Preview\\ Content";
+				DEVELOPMENT_TEAM = XZK4TL6GCS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SethsCodeShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seths Code Shop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,9 +383,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "SethsCodeShop/Preview\\ Content";
+				DEVELOPMENT_TEAM = XZK4TL6GCS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SethsCodeShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seths Code Shop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
