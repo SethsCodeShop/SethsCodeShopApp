@@ -24,7 +24,7 @@ struct LandingView: View {
                 .padding(.bottom, 50)
                 .frame(maxWidth: .infinity, alignment: .center)
             
-            Image(uiImage:  #imageLiteral(resourceName:"Headshot.jpeg"))
+            Image(uiImage:  #imageLiteral(resourceName:"CodeShop.png"))
                 .resizable()
                 .scaledToFit()
                 .frame(width: 200, height: 200)

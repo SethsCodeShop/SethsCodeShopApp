@@ -82,8 +82,6 @@
 			children = (
 				0B16EEBC29CF9A3000F15457 /* ExperienceViewModel.swift */,
 				0B16EEBF29CF9A7A00F15457 /* API.swift */,
-				0B16EEBE29CF9A6900F15457 /* Functions */,
-				0B16EEBB29CF9A1C00F15457 /* ViewModels */,
 				0B16EEB829CF884800F15457 /* Info.plist */,
 				0B16EEA429CF4F3900F15457 /* Images */,
 				0B16EE8A29CF4A7300F15457 /* SethsCodeShopApp.swift */,
@@ -118,20 +116,6 @@
 				0B16EEA529CF521C00F15457 /* LinkedIn.pdf */,
 			);
 			path = Images;
-			sourceTree = "<group>";
-		};
-		0B16EEBB29CF9A1C00F15457 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		0B16EEBE29CF9A6900F15457 /* Functions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
