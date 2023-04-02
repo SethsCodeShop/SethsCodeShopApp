@@ -18,7 +18,7 @@ struct LandingView: View {
                 .padding(.top, 50)
                 .frame(maxWidth: .infinity, alignment: .center)
             
-            Text("Seths Code Shop!")
+            Text("Seth's Code Shop!")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding(.bottom, 50)

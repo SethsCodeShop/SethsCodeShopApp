@@ -24,6 +24,7 @@
 		0B16EEBD29CF9A3000F15457 /* ExperienceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEBC29CF9A3000F15457 /* ExperienceViewModel.swift */; };
 		0B16EEC029CF9A7A00F15457 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B16EEBF29CF9A7A00F15457 /* API.swift */; };
 		0BE40B6C29D8BE6D0048D3E9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BE40B6B29D8BE6D0048D3E9 /* Auth0.plist */; };
+		0BE40B7629DA0B1B0048D3E9 /* CodeShop.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE40B7529DA0B1B0048D3E9 /* CodeShop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		0B16EEBC29CF9A3000F15457 /* ExperienceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceViewModel.swift; sourceTree = "<group>"; };
 		0B16EEBF29CF9A7A00F15457 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0BE40B6B29D8BE6D0048D3E9 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		0BE40B7529DA0B1B0048D3E9 /* CodeShop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodeShop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		0B16EEA429CF4F3900F15457 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0BE40B7529DA0B1B0048D3E9 /* CodeShop.png */,
 				0B16EEA929CF54C800F15457 /* Headshot.jpeg */,
 				0B16EEA529CF521C00F15457 /* LinkedIn.pdf */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE40B7629DA0B1B0048D3E9 /* CodeShop.png in Resources */,
 				0BE40B6C29D8BE6D0048D3E9 /* Auth0.plist in Resources */,
 				0B16EE9229CF4A7600F15457 /* Preview Assets.xcassets in Resources */,
 				0B16EEAA29CF54C800F15457 /* Headshot.jpeg in Resources */,
@@ -354,7 +358,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SethsCodeShop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Seths Code Shop";
+				INFOPLIST_KEY_CFBundleDisplayName = "Code Shop";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -387,7 +391,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SethsCodeShop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Seths Code Shop";
+				INFOPLIST_KEY_CFBundleDisplayName = "Code Shop";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
